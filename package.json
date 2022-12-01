@@ -1,5 +1,5 @@
 {
-  "name": "sit725 Practical Three",
+  "name": "sit725 Practical Four",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,15 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shamail786/sit725-2022-t2-prac3.git"
+    "url": "git+https://github.com/shamail786/sit725-2022-t2-prac4.git"
   },
   "author": "Shamail Haider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shamail786/sit725-2022-t2-prac3/issues"
+    "url": "https://github.com/shamail786/sit725-2022-t2-prac4/issues"
   },
-  "homepage": "https://github.com/shamail786/sit725-2022-t2-prac3#readme",
+  "homepage": "https://github.com/shamail786/sit725-2022-t2-prac4#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1"
   }
 }
