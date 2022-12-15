@@ -1,26 +1,29 @@
 {
-  "name": "sit725 Practical Five ",
+  "name": "sit725 Practical Six ",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter spec",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shamail786/sit725-2022-t2-prac5.git"
+    "url": "git+https://github.com/shamail786/sit725-2022-t2-prac6.git"
   },
   "author": "Shamail Haider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shamail786/sit725-2022-t2-prac5/issues"
+    "url": "https://github.com/shamail786/sit725-2022-t2-prac6/issues"
   },
-  "homepage": "https://github.com/shamail786/sit725-2022-t2-prac5#readme",
+  "homepage": "https://github.com/shamail786/sit725-2022-t2-prac6#readme",
   "dependencies": {
+    "chai": "^4.3.7",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongodb": "^4.12.1"
+    "mocha": "^10.2.0",
+    "mongodb": "^4.12.1",
+    "request": "^2.88.2"
   }
 }
